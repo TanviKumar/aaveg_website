@@ -53,13 +53,14 @@ Route::get('/freshersnight', function () {
 Route::get('/admin/login', function () {
     return view('admin.admin_login');
 });
-//Route::get('/tshirt', function () {
-    //if(Session::get('roll_no')) {
-        //return Redirect::to('/tshirt/register');
-    //} else {
-        //return view('login');
-    //}
-//});
+
+Route::get('/tshirt', function () {
+    if(Session::get('roll_no')) {
+        return Redirect::to('/tshirt/register');
+    } else {
+        return view('login');
+    }
+});
 Route::get('/tshirt/register','TShirtController@getTshirtPage');
 
 Route::group(['middleware' => 'checkSession'], function() {
@@ -121,6 +122,6 @@ Route::post('/freshersnight','FreshersController@submit');
 //Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
 
 //Tshirt Routes
-//Route::post('/login','LoginController@tshirtLogin');
-//Route::post('/logout','LoginController@tshirtLogout');
-//Route::post('/tshirt/register','TShirtController@registerForTshirt');
+Route::post('/login','LoginController@tshirtLogin');
+Route::post('/logout','LoginController@tshirtLogout');
+Route::post('/tshirt/register','TShirtController@registerForTshirt');
