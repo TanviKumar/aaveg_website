@@ -36,21 +36,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{asset('images/aaveglogo.png')}}" class="logo">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/about">About Aaveg<span class="sr-only"></span></a></li>
-        <li><a href="/freshersnight">Fresher's Night<span class="sr-only"></span></a></li>
-        <li><a href="/scoreboard">Scoreboard<span class="sr-only"></span></a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/events">Events</a></li>
-        <li><a href="/schedule.jpg">Schedule</a></li>
+        <li><a href="{{ url('/about') }}">About Aaveg<span class="sr-only"></span></a></li>
+        <li><a href="{{ url('/freshersnight') }}">Fresher's Night<span class="sr-only"></span></a></li>
+        <li><a href="{{ url('/scoreboard') }}">Scoreboard<span class="sr-only"></span></a></li>
+        <li><a href="{{ url('/blog') }}">Blog</a></li>
+        <li><a href="{{ url('/events') }}">Events</a></li>
+        <li><a href="{{ url('/schedule.jpg') }}">Schedule</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/team">The Team</a></li>
+        <li><a href="{{ url('/team') }}">The Team</a></li>
         <li><a target="_blank" href="http://facebook.com/aaveg.nitt">Facebook Page</a></li>
         <li><a type="button" data-toggle="modal" data-target="#myModal">Contact Us</a></li>
       </ul>
