@@ -15,8 +15,8 @@ body {
 
 @media (max-width: 1100px) {
 	body {
-		background-size: 1100px 100%;
-		background-position: 50% 0;
+		background-size: 800px 90%;
+		background-position: 50% 100%;
 	}
 }
 
