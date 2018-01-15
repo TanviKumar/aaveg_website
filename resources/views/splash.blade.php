@@ -49,7 +49,14 @@
 	</div>
 	<script>
 		$(document).ready(function(){
-		console.log("worked");
+		// I'm going to eat my shame and do this here... 
+		var hacky_offset = "0px";
+		if (navigator.userAgent.search("Firefox") != -1){
+			$("body").addClass("hackmax-background");
+			hacky_offset = "-50px";
+		}
+	
+
 		var leftDest = "45%",
 			rightDest = "55%";
 		
@@ -72,7 +79,7 @@
 			}, 900, "easeOutQuart");
 		}
 		$("#rock").animate({
-			bottom: '0px'
+			bottom: hacky_offset
 		}, 1500, 'easeOutBounce');
 		setTimeout(foo, 1050);
 	});
