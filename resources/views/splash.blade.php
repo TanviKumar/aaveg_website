@@ -59,8 +59,8 @@
 			rightDest = "60%";			
 		}
 		if (w <= 400) {
-			leftDest = "20%";
-			rightDest = "8::q0%";
+			leftDest = "30%";
+			rightDest = "70%";
 		}
 		function foo () {
 			$("#fullrockimg").hide();
