@@ -26,12 +26,12 @@ function setCore() {
 		{
 			"name":  "SM Aseer",
 			"post":  "Chairman",
-			"image": base_url + "IMG_6056.jpg"
+			"image": base_url + "male.jpg"
 		},
 		{
 			"name":  "Kritesh Patel",
 			"post":  "Treasurer",
-			"image": base_url + "IMG_6069.jpg"
+			"image": base_url + "male.jpg"
 		},
 		{
 			"name":  "Jagan M",
@@ -41,7 +41,7 @@ function setCore() {
 		{
 			"name":  "Navya Shaji",
 			"post":  "Head, OC",
-			"image": base_url + "IMG_6038.jpg"
+			"image": base_url + "female.jpg"
 		},
 		{
 			"name":  "Gautham K",

@@ -47,13 +47,16 @@ Route::get('/admin/login', function () {
 Route::get('/events/online/photography', function () {
     return view('photography');
 });
-Route::get('/freshersnight', function () {
-    return view('freshers');
-});
+//Route::get('/freshersnight', function () {
+//    return view('freshers');
+//});
+
 Route::get('/admin/login', function () {
     return view('admin.admin_login');
 });
-
+Route::get('/moonlight',function(){
+	return view('moonlight');
+});
 Route::get('/tshirt', function () {
     if(Session::get('roll_no')) {
         return Redirect::to('/tshirt/register');

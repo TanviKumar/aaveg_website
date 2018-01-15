@@ -43,9 +43,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="{{ url('/about') }}">About Aaveg<span class="sr-only"></span></a></li>
-        <li><a href="{{ url('/freshersnight') }}">Fresher's Night<span class="sr-only"></span></a></li>
+        <li><a href="{{ url('/moonlight') }}">Moonlight<span class="sr-only"></span></a></li>
         <li><a href="{{ url('/scoreboard') }}">Scoreboard<span class="sr-only"></span></a></li>
-        <li><a href="{{ url('/blog') }}">Blog</a></li>
+        <li><a href="{{ url('https://medium.com/aaveg-blog') }}">Blog</a></li>
         <li><a href="{{ url('/events') }}">Events</a></li>
         <li><a href="{{ url('/schedule.jpg') }}">Schedule</a></li>
       </ul>
