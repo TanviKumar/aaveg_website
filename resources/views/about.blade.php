@@ -13,9 +13,17 @@
 <div class="container" id="main-container">
   <br><br><br>
   <div class="jumbotron">
-    <h1 class="display-3">Aaveg - An Adventure!</h1>
-    <p class="lead">Aaveg has crossed a hundred milestones to get to where it is today, and it continues to grow exponentially. Starting out as a mere idea, the fest has transformed into an icon of the fresher life.<br><br>
-    The website symbolizes yet another cat in the bag for this extravaganza, and it doesn't look like Aaveg's growth will be slowing anytime soon!</p>
+    <h1 class="display-3">Aaveg</h1>
+    <p class="lead">The first year of college can be monotonous and tiring. There are few chances for first 
+    years to gain recognition. Are you waiting for a platform to show off your skills? Well, here is your chance! <br><br>
+     
+    Aaveg is the inter hostel fest; for the freshers, by the freshers and of the freshers. It is an opportunity for first years to showcase their talents and make everlasting friendships.<br><br>
+     
+    With numerous events to take part in, ranging from sporting events to literary events; Aaveg hosts opportunities for any kind of talent. The main awards are the Sports cup, the Culturals cup, the Spectrum cup and the Cheering cup.<br>
+    The hostel with most points at the end goes back with the cup, and, the glory.<br>
+    So fight for the cup and uphold your hostel's honour; and your victory will be carved in stone!<br><br>
+    
+</p>
     <hr class="my-2">
     <p>Take a look at some of last year's snapshots!</p>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -30,49 +38,44 @@
     <li data-target="#myCarousel" data-slide-to="6"></li>
     <li data-target="#myCarousel" data-slide-to="7"></li>
     <li data-target="#myCarousel" data-slide-to="8"></li>
-    <li data-target="#myCarousel" data-slide-to="9"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="{{asset('carousel-images/1.jpg')}}" alt="Chania">
+      <img src="{{asset('carousel-images/about/1.jpg')}}" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/2.jpg')}}" alt="Chania">
+      <img src="{{asset('carousel-images/about/2.jpg')}}" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/5.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/5.jpg')}}" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/4.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/4.jpg')}}" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/3.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/3.jpg')}}" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/6.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/6.jpg')}}" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/7.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/7.jpg')}}" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/8.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/8.jpg')}}" alt="Flower">
     </div>
 
     <div class="item">
-      <img src="{{asset('carousel-images/9.jpg')}}" alt="Flower">
-    </div>
-
-    <div class="item">
-      <img src="{{asset('carousel-images/0.jpg')}}" alt="Flower">
+      <img src="{{asset('carousel-images/about/0.jpg')}}" alt="Flower">
     </div>
   </div>
 

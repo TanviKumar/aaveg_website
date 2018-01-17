@@ -37,6 +37,9 @@ Route::get('/fun', function () {
 Route::get('/events', function () {
     return view('events');
 });
+Route::get('/moonlight', function() {
+	return view('moonlight');
+});
 Route::get('/events/{event_id}','EventsController@getSingleEventView');
 Route::get('/admin', function () {
     return view('admin.admin_login');

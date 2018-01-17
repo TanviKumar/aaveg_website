@@ -36,7 +36,7 @@ function setCore() {
        {
            "name":  "Santhosh Kumar",
            "post":  "Head, OC",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+" maleplaceholder.jpg"
        },
        {
            "name":  "Veena",
@@ -46,7 +46,7 @@ function setCore() {
        {
            "name":  "Anirudh Banerjee",
            "post":  "Head, Content",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+" maleplaceholder.jpg"
        },
        {
            "name":  "Abilash C",
@@ -114,7 +114,7 @@ function setWeb() {
 		{
 			"name":  "Sudarshan",
 			"post":  "App Developer",
-			"image": base_url + "maleplaceholder.jpg"
+			"image": base_url + "maleholder.jpg"
 		},
 	];
 	var info={};
