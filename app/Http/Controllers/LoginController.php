@@ -25,8 +25,10 @@ class LoginController extends Controller
 
             //check for valid parameters
             if($validator->fails()) {
-                $response = $validator->errors()->all();
-                return Redirect::to('/tshirt');
+				$response = $validator->errors()->all();
+				$status = 400;
+				$message = "Invalid Parameters";
+				return JsonResponse::response($status, $message);
             }
 
             $roll_no  = $request->input('roll_no');
@@ -43,13 +45,17 @@ class LoginController extends Controller
 
                 $status_code = 200;
                 $message = "Success";
-
-                return Redirect::to('/tshirt/register');
+				
+				// for now, it's an all purpose route
+				// modify this...
+				return JsonResponse::response($status_code, $message);
+                //return Redirect::to('/tshirt/register');
             } else {
                 Log::info($roll_no." has attempted to login and failed");
                 $status_code = 400;
                 $message = "Failure";
-                return Redirect::to('/tshirt');
+				return JsonResponse::response($status_code, $message);
+				//return Redirect::to('/tshirt');
             }
         } catch (Exception $e) {
             $status_code = 500;

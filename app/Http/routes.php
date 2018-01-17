@@ -128,6 +128,8 @@ Route::post('/freshersnight','FreshersController@submit');
 //Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
 
 //Tshirt Routes
+//Going to use the /login as a general all purpose login
+//route. Seprate it later
 Route::post('/login','LoginController@tshirtLogin');
-Route::post('/logout','LoginController@tshirtLogout');
-Route::post('/tshirt/register','TShirtController@registerForTshirt');
+#Route::post('/logout','LoginController@tshirtLogout');
+#Route::post('/tshirt/register','TShirtController@registerForTshirt');
