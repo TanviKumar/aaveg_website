@@ -125,7 +125,7 @@ Route::post('/admin/logout', 'Admin\AdminAuth@adminLogout');
 Route::post('/freshersnight','FreshersController@submit');
 
 //Photography Routes
-//Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
+Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
 
 //Tshirt Routes
 //Going to use the /login as a general all purpose login
