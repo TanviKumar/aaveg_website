@@ -50,19 +50,19 @@
   <br><br><br>
   <div class="jumbotron">
     <h1 class="display-3">The Team!</h1>
-    <p class="lead">Behind every great success is a team, filled with passion and dreams. Aaveg is no different in this regard. So here's a little overview of the different teams and their members. <br><br>
-    We thank <a target="_blank" href="https://www.facebook.com/blurrindia/">Blurr India</a> for these incredible photos! Meet the Aaveg Family.</p>
-    <hr class="my-2">
-    <p><b>Faculty Advisor:</b> Sreekanth Sir is the engine of the Aaveg train, our support to keep moving forward!</p>
+    <p class="lead"> This fest wouldn't have been possible if it weren't for these young and ambitious enthusiasts who have continuously strived to make this extravaganza greater than ever before. Let’s introduce you to the newest Aaveg Family!<br><br><br><br>
+    <!-- We thank <a target="_blank" href="https://www.facebook.com/blurrindia/">Blurr India</a> for these incredible photos! Meet the Aaveg Family.</p>
+    <hr class="my-2"> -->
+    <p><b>Faculty Advisor:</b> Sreekanth Sir: With continuous support and inspiration since Aaveg’s inception, Sreekanth Sir has been the backbone of the fest.</p>
     <!-- <hr class="my-2"> -->
-    <p><b>Core:</b> They put the fun in fundamental whilst acting as Aaveg's torch bearers.</p>
+    <p><b>Core:</b> Everything needs a support because without support everything falls apart. A fundamental part of the Aaveg family, these 12 workaholics strive to guide the freshers to achieve their full potential.</p>
     <!-- <hr class="my-2"> -->
-    <p><b>OC: </b>Pulling strings and getting the act together is their forte. Just don't ask for spam.</p>
+    <p><b>OC: </b>The name says it all. From ideation to rulebooks to ambience, this team of dedicated individuals are behind what you see during the fest.</p>
     <!-- <hr class="my-2"> -->
-    <p><b>Design:</b> Designed to get your attention, with their amazing posters and artwork. No modern art here.</p>
+    <p><b>Design:</b> With a full palette of colours and pictures, this team have drawn up some of the most amazing, vibrant and innovative posters. We need not mention their work, as you should see it for yourself.</p>
     <!-- <hr class="my-2"> -->
-    <p><b>Content:</b> The minds behind the pen. Just don't get them started on puns and punish yourself.</p>
-    <p><b>Web Ops:</b> Well, You're reading all this right? Cool.</p><br>
+    <p><b>Content:</b> A team of creative writers and speakers, they wield words as their tools in order to be Aaveg’s link to the audience.</p>
+    <p><b>Web Ops:</b> From this page itself to the Aaveg app, this team provides the basis for Aaveg to reach out via the digital world.</p><br>
     <p class="lead">
       <a class="btn btn-primary btn-lg" target="_blank" href="https://www.facebook.com/aaveg.nitt" role="button">Visit us on Facebook!</a>
     </p>

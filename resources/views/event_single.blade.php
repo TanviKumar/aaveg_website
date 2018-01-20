@@ -58,7 +58,7 @@
           </div>
         </div>
       </div>
-      <h3>Rules</h3>
+      <h3>Rulebooks</h3>
       <div class="row">
         <div class="col">
           <div class="event-rulebook">

@@ -54,7 +54,7 @@ function setCore() {
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Salai",
+           "name":  "Varsha",
            "post":  "Manager",
            "image": base_url+"femaleplaceholder.jpg"
        },

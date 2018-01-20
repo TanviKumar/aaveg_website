@@ -58,7 +58,7 @@ function setScores(info) {
             culturals.opal+=parseInt(Math.trunc(info.message["Culturals"][i]["opal_score"]));
     }
 
-    if(info.message["Sports"]) {
+    if(info.message["Sports Cup"]) {
         for (var i = info.message["Sports"].length - 1; i >= 0; i--)
             sports.diamond+=parseInt(Math.trunc(info.message["Sports"][i]["diamond_score"]));
         for (var i = info.message["Sports"].length - 1; i >= 0; i--)
