@@ -24,17 +24,17 @@ function setCore() {
 	var base_url = SITE_BASE_URL + '/profile-images/'
 	var core=[
        {
-           "name":  "Bhargava Mangalagiri",
+           "name":  "Bhargava",
            "post":  "Chairman",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Ram Sundaram Swaminathan",
+           "name":  "Ram Sundaram",
            "post":  "Treasurer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Santhosh Kumar",
+           "name":  "Santhosh",
            "post":  "Head, OC",
            "image": base_url+"maleplaceholder.jpg"
        },
@@ -44,42 +44,42 @@ function setCore() {
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Anirudh Banerjee",
+           "name":  "Anirudh",
            "post":  "Head, Content",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Abilash C",
+           "name":  "Abilash",
            "post":  "Head, Design",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Salai Varshaa K",
+           "name":  "Salai",
            "post":  "Manager",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Umair Chorghay",
+           "name":  "Umair",
            "post":  "Manager",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Akaash Preetham",
+           "name":  "Akaash",
            "post":  "Manager",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Snehith Galla",
+           "name":  "Snehith",
            "post":  "Manager",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Naveen Vaidya",
+           "name":  "Naveen",
            "post":  "Manager",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Nandini Ranganathan",
+           "name":  "Nandini",
            "post":  "Manager",
            "image": base_url+"femaleplaceholder.jpg"
        },
@@ -97,22 +97,22 @@ function setWeb() {
 	var base_url = SITE_BASE_URL + '/profile-images/'
 	var core = [
 		{
-			"name":  "Akshay Pai",
+			"name":  "Akshay",
 			"post":  "Web Developer",
 			"image": base_url + "maleplaceholder.jpg"
 		},
 		{
-			"name":  "Tanvi Kumar",
+			"name":  "Tanvi",
 			"post":  "Web Developer",
 			"image": base_url + "femaleplaceholder.jpg"
 		},
 		{
-			"name":  "Santosh Kumar",
+			"name":  "Santosh",
 			"post":  "App Developer",
 			"image": base_url + "maleplaceholder.jpg"
 		},
 		{
-			"name":  "Sudarshan",
+			"name":  ",
 			"post":  "App Developer",
 			"image": base_url + "maleplaceholder.jpg"
 		},
@@ -130,258 +130,258 @@ function setTeam() {
 	var base_url = SITE_BASE_URL + '/profile-images/';
 	var team=[
        {
-           "name":  "S Aravind",
+           "name":  "Aravind",
            "post":  "Content Writer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Adil Abdul Nazar",
+           "name":  "Adil",
            "post":  "Content Writer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Ipsita Panda",
+           "name":  "Ipsita",
            "post":  "Content Writer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Aindrila Ganguly",
+           "name":  "Aindrila",
            "post":  "Content Writer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Swagata Das",
+           "name":  "Swagata",
            "post":  "Content Writer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Harini G Anand",
+           "name":  "Harini",
            "post":  "Content Writer",
            "image": base_url+"femaleplaceholder.jpg"
        },
 
        {
-           "name":  "Pooja Devulapally",
+           "name":  "Pooja",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
                {
-           "name":  "Sanjana Ramesh",
+           "name":  "Sanjana",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Ananthanarayanan Potti",
+           "name":  "Ananthanarayanan",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Deepti Kannan",
+           "name":  "Deepti",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Subash Aravindan P",
+           "name":  "Subash",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Aman Mishra",
+           "name":  "Aman",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Anand Soman",
+           "name":  "Anand",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Vijay Kumar Chitrala",
+           "name":  "Vijay",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Evlin Bosco Kurumthottam",
+           "name":  "Evlin",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Nilesh Gope",
+           "name":  "Nilesh",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "R Madhav Krishnan ",
+           "name":  "Madhav",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Srinivas Rajagopalan",
+           "name":  "Srinivas",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Kishore V",
+           "name":  "Kishore",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Nitin More",
+           "name":  "Nitin",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Raj Kuvar Yadav",
+           "name":  "Raj",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Riddhi Gupta",
+           "name":  "Riddhi",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Sanju George Oomen",
+           "name":  "Sanju",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Swayamprava Satpathy",
+           "name":  "Swayamprava",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Rahul V S",
+           "name":  "Rahul",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Adarsh Nunna",
+           "name":  "Adarsh",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Ayush Tiwari",
+           "name":  "Ayush",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Diya Dileep",
+           "name":  "Diya",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Kartikey Shankarro",
+           "name":  "Kartikey",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Michelle Marianne",
+           "name":  "Michelle",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Raj Kumar Bhagat",
+           "name":  "Raj",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Rengadeva T R",
+           "name":  "Rengadeva",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Sahil Mittal",
+           "name":  "Sahil",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Savita Vinayaga Moorthi",
+           "name":  "Savita",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Uttish Narayan",
+           "name":  "Uttish",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Vijay Kiran Vinod",
+           "name":  "Vijay",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "George Joseph Alapatt",
+           "name":  "George",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Kathirvel Rajan B",
+           "name":  "Kathirvel",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Mohd Aquif",
+           "name":  "Aquif",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Achyut Ramkumar",
+           "name":  "Achyut",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Ajay Shankar S",
+           "name":  "Ajay",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Deeraj Eswar R",
+           "name":  "Deeraj",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Dhwani Shah",
+           "name":  "Dhwani",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Karthik S",
+           "name":  "Karthik",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Nandhini Swaminathan",
+           "name":  "Nandhini",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Shallypreethika Mani",
+           "name":  "Shallypreethika",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "Tamagno Sarkar",
+           "name":  "Tamagno",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Amritha Suresh",
+           "name":  "Amritha",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Vamsi Krishna Batchu",
+           "name":  "Vamsi",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Jaypal Singh R",
+           "name":  "Jaypal",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Kunal Yadav",
+           "name":  "Kunal",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
@@ -391,27 +391,27 @@ function setTeam() {
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Neel Samadder",
+           "name":  "Neel",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Venkat Subramanian R M ",
+           "name":  "Venkat",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Raghuveer Vinnakota",
+           "name":  "Raghuveer",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Kshiteesh Bandhuvula",
+           "name":  "Kshiteesh",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Saeed Anwar P A",
+           "name":  "Saeed",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
@@ -421,77 +421,77 @@ function setTeam() {
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Karthi Saran",
+           "name":  "Karthi",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Meghna Saxena",
-           "post":  "Organizer",
-           "image": base_url+"femaleplaceholder.jpg"
-       },
-       {
-           "name":  "Sahithi P S L",
+           "name":  "Meghna",
            "post":  "Organizer",
            "image": base_url+"femaleplaceholder.jpg"
        },
        {
-           "name":  "P S Vishnu Shankar ",
+           "name":  "Sahithi",
+           "post":  "Organizer",
+           "image": base_url+"femaleplaceholder.jpg"
+       },
+       {
+           "name":  " Vishnu",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "P Shailesh Bhagwan Rao",
+           "name":  "Shailesh",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Santhosh Kumaar R",
+           "name":  "Santhosh",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Tarun Mogram",
+           "name":  "Tarun",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Vaibhav Ashok Malani",
+           "name":  "Vaibhav",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Yash Prakash",
+           "name":  "Yash",
            "post":  "Organizer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Ragland Asir",
+           "name":  "Ragland",
            "post":  "Designer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Sathwik Kumar",
+           "name":  "Sathwik",
            "post":  "Designer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "S. Sri Aakash",
+           "name":  "Aakash",
            "post":  "Designer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Amogh Jahagirdar",
+           "name":  "Amogh",
            "post":  "Designer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Yagnesh L Pazhaniyappan",
+           "name":  "Yagnesh",
            "post":  "Designer",
            "image": base_url+"maleplaceholder.jpg"
        },
        {
-           "name":  "Mohamed Mohasin",
+           "name":  "Mohasin",
            "post":  "Designer",
            "image": base_url+"maleplaceholder.jpg"
        },
