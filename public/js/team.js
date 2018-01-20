@@ -112,7 +112,7 @@ function setWeb() {
 			"image": base_url + "maleplaceholder.jpg"
 		},
 		{
-			"name":  ",
+			"name":  "Sudarshan",
 			"post":  "App Developer",
 			"image": base_url + "maleplaceholder.jpg"
 		},
