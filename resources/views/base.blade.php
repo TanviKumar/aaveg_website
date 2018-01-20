@@ -47,7 +47,7 @@
         <li><a href="{{ url('/scoreboard') }}">Scoreboard<span class="sr-only"></span></a></li>
         <li><a href="{{ url('https://medium.com/aaveg-blog') }}">Blog</a></li>
         <li><a href="{{ url('/events') }}">Events</a></li>
-        <li><a href="{{ url('/schedule.jpg') }}">Schedule</a></li>
+        <li><a href="{{ url('/schedule.pdf') }}">Schedule</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ url('/team') }}">The Team</a></li>
