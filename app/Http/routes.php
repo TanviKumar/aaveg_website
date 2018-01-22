@@ -127,6 +127,9 @@ Route::post('/freshersnight','FreshersController@submit');
 //Photography Routes
 Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
 
+//Fantasy Cup
+Route::post('/games/fantasycup', 'GamesController@predictEvent');
+
 //Tshirt Routes
 //Going to use the /login as a general all purpose login
 //route. Seprate it later
