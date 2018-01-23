@@ -51,7 +51,7 @@ class GamesController extends Controller
             
             $current_date = date("Y-m-d");
 
-            if ($event['event_date'] >= $current_date)
+            if ($event['event_date'] <= $current_date)
                 return JSONResponse::response("400", "No more predictions will be accepted!");
             
             
