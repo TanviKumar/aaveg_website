@@ -50,6 +50,11 @@ class LoginController extends Controller
                 $user_auth = $roll_no . rand();
                 $user_auth = sha1($user_auth);
 
+				$old_token = UserTokens::where('roll_no', '=', $roll_no);
+
+				if ($old_token)
+					$old_token->delete();
+
                 try{
                     DB::beginTransaction();
                     $new_token = new UserTokens;
