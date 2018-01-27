@@ -68,7 +68,7 @@
       </div>
     </div>
     <div style="text-align:center">
-      <a class="btn btn-primary btn-lg" href="/events" role="button"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Events</a>
+      <a class="btn btn-primary btn-lg" href="{{ url('/events') }}" role="button"><i class="fa fa-arrow-left" aria-hidden="true"></i> All Events</a>
     </div>
   </div>
   <br />
