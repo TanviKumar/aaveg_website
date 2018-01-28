@@ -49,7 +49,9 @@ class GamesController extends Controller
             $event = EventsDetails::where('event_name','=',$event_name)
                     ->first();
             
-            $current_date = date("Y-m-d");
+			
+			date_default_timezone_set('Asia/Calcutta');
+			$current_date = date("Y-m-d");
 
             if ($event['event_date'] <= $current_date)
                 return JSONResponse::response("400", "No more predictions will be accepted!");
