@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use DB;
 use Log;
 use Validator;
 use Exception;
@@ -14,6 +14,8 @@ use Sangria\JSONResponse;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Models\UserTokens;
+
 class LoginController extends Controller
 {
     public function tshirtLogin(Request $request) {
@@ -23,11 +25,13 @@ class LoginController extends Controller
                 'password' => 'required'
             ]);
 
-            //check for valid parameters
-            if($validator->fails()) {
-                $response = $validator->errors()->all();
-                return Redirect::to('/tshirt');
-            }
+        //check for valid parameters
+        if($validator->fails()) {
+            $response = $validator->errors()->all();
+            $status = 400;
+            $message = "Invalid Parameters";
+            return JsonResponse::response($status, $message);
+        }
 
             $roll_no  = $request->input('roll_no');
             $username = $roll_no."@nitt.edu";
@@ -43,13 +47,37 @@ class LoginController extends Controller
 
                 $status_code = 200;
                 $message = "Success";
+                $user_auth = $roll_no . rand();
+                $user_auth = sha1($user_auth);
 
-                return Redirect::to('/tshirt/register');
+				$old_token = UserTokens::where('roll_no', '=', $roll_no);
+
+				if ($old_token)
+					$old_token->delete();
+
+                try{
+                    DB::beginTransaction();
+                    $new_token = new UserTokens;
+                    $new_token->roll_no = $roll_no;
+                    $new_token->token = $user_auth;
+                    
+                    $new_token->save();
+
+                    DB::commit();
+                    return JsonResponse::response($status_code, $user_auth);
+                } catch (Exception $e) {
+                    
+					DB::rollBack();
+					$response = $e->getMessage()." ".$e->getLine();
+                    return JsonResponse::response("400", $response);                 
+                }
+            
             } else {
                 Log::info($roll_no." has attempted to login and failed");
                 $status_code = 400;
                 $message = "Failure";
-                return Redirect::to('/tshirt');
+				return JsonResponse::response($status_code, $message);
+				//return Redirect::to('/tshirt');
             }
         } catch (Exception $e) {
             $status_code = 500;

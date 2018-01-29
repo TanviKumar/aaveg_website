@@ -43,11 +43,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="{{ url('/about') }}">About Aaveg<span class="sr-only"></span></a></li>
-        <li><a href="{{ url('/freshersnight') }}">Fresher's Night<span class="sr-only"></span></a></li>
+        <li><a href="{{ url('/moonlight') }}">Moonlight<span class="sr-only"></span></a></li>
         <li><a href="{{ url('/scoreboard') }}">Scoreboard<span class="sr-only"></span></a></li>
-        <li><a href="{{ url('/blog') }}">Blog</a></li>
+        <li><a href="{{ url('https://medium.com/aaveg-blog') }}">Blog</a></li>
         <li><a href="{{ url('/events') }}">Events</a></li>
-        <li><a href="{{ url('/schedule.jpg') }}">Schedule</a></li>
+        <li><a href="{{ url('/schedule.pdf') }}">Schedule</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ url('/team') }}">The Team</a></li>
@@ -65,20 +65,20 @@
         <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
       </div>
       <div class="modal-body">
-        Chairperson - <b>SM Aseer</b><br />
-        +91 9790065037<br /><br />
-        Treasurer - <b>Kritesh Patel</b><br />
-        +91 9940865611<br /><br />
-        Head, OC - <b>Jagannivashan M</b><br />
-        +91 7299306577<br /><br />
-        Head, OC - <b>Navya Shaji</b><br />
-        +91 7598426755<br /><br />
-        Head, Content - <b>Gautham Kumar</b><br />
-        +91 9787139231<br /><br />
-        Head, Design - <b>Arun Prakash R</b><br />
-        +91 9626609145<br /><br />
-        Web Operations - <b>Venkatraman Srikanth</b><br />
-        +91 9962535961<br /><br />
+        Chairperson - <b>Bhargav Mangalgiri</b><br />
+        +91 9629882258<br /><br />
+        Treasurer - <b>Ram Sundaram Swaminathan</b><br />
+        +91 7337355001<br /><br />
+        Head, OC - <b>Santosh Kumar</b><br />
+        +91 8015809999<br /><br />
+        Head, OC - <b>Veena</b><br />
+        +91 7550147015<br /><br />
+        Head, Content - <b>Anirudh Banerjee</b><br />
+        +91 9787553271<br /><br />
+        Head, Design - <b>Abilash C</b><br />
+        +91 8056166423<br /><br />
+        Web Operations - <b>Akshay Pai</b><br />
+        +91 9632502454<br /><br />
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>

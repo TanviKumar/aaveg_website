@@ -1,13 +1,16 @@
 $(window).load(function() {
   setTimeout(function() {
     drawTagline1();
-  }, 7000);
+  }, 2800);
   setTimeout(function() {
     drawTagline2();
-  }, 8000);
+  }, 3500);
+  setTimeout(function() {
+    drawTagline3();
+  }, 4200);
   setTimeout(function() {
     playAudio();
-  }, 4000);
+  }, 2800);
 });
 
 $(document).load(function() {
@@ -214,3 +217,20 @@ function drawTagline2() {
     }, 1100);
   });
 }
+
+function drawTagline3() {
+    $('#tagline-container3').css("visibility","visible");
+    var $all_msg = $('#tagline-container3');
+    var $wordList = $('#tagline-container3').text().split("");
+    $('#tagline-container3').text("");
+    $.each($wordList, function(idx, elem) {
+      var newEL = $("<span/>").text(elem).css({
+        opacity: 0
+      });
+      newEL.appendTo($all_msg);
+      newEL.delay(idx * 70);
+      newEL.animate({
+        opacity: 1
+      }, 1100);
+    });
+  }

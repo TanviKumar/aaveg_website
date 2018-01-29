@@ -37,6 +37,9 @@ Route::get('/fun', function () {
 Route::get('/events', function () {
     return view('events');
 });
+Route::get('/moonlight', function() {
+	return view('moonlight');
+});
 Route::get('/events/{event_id}','EventsController@getSingleEventView');
 Route::get('/admin', function () {
     return view('admin.admin_login');
@@ -47,13 +50,16 @@ Route::get('/admin/login', function () {
 Route::get('/events/online/photography', function () {
     return view('photography');
 });
-Route::get('/freshersnight', function () {
-    return view('freshers');
-});
+//Route::get('/freshersnight', function () {
+//    return view('freshers');
+//});
+
 Route::get('/admin/login', function () {
     return view('admin.admin_login');
 });
-
+Route::get('/moonlight',function(){
+	return view('moonlight');
+});
 Route::get('/tshirt', function () {
     if(Session::get('roll_no')) {
         return Redirect::to('/tshirt/register');
@@ -119,9 +125,14 @@ Route::post('/admin/logout', 'Admin\AdminAuth@adminLogout');
 Route::post('/freshersnight','FreshersController@submit');
 
 //Photography Routes
-//Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
+Route::post('/events/online/photography', 'PhotographyController@submitPhoto');
+
+//Fantasy Cup
+Route::post('/games/fantasycup', 'GamesController@predictEvent');
 
 //Tshirt Routes
+//Going to use the /login as a general all purpose login
+//route. Seprate it later
 Route::post('/login','LoginController@tshirtLogin');
-Route::post('/logout','LoginController@tshirtLogout');
-Route::post('/tshirt/register','TShirtController@registerForTshirt');
+#Route::post('/logout','LoginController@tshirtLogout');
+#Route::post('/tshirt/register','TShirtController@registerForTshirt');

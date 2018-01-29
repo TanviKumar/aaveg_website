@@ -26,7 +26,7 @@ class PhotographyController extends Controller
         if($validator->fails()) {
             $message = $validator->errors()->all();
             Log::info($validator->errors()->all());
-            return 'Submission Failed. Please Try Again. Ensure the filesize of the image is less than 3Mb.';
+            return JSONResponse::response("400","Something went wrong...");	
         }
 
         $name     = $request->input('name');
@@ -48,6 +48,6 @@ class PhotographyController extends Controller
 
         $image->move(storage_path('photography'), $filename);
 
-        return 'Submitted Successfully';
+        return JSONResponse::response("200","Your photograph has been submitted!"); 
     }
 }

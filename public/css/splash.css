@@ -8,14 +8,20 @@ html, body{
 }
 
 body {
-	background: url("../splash-assets/backdrop.png") no-repeat;
+	background: url("../splash-assets/asset1.png") no-repeat;
 	background-size: 100% 100%;
+	background-color:#7ea6f7;
+}
+
+.hackmax-background{
+	background: url("../splash-assets/asset1.png") !important;
+	background-color:#7ea6f7 !important;
 }
 
 @media (max-width: 1100px) {
 	body {
-		background-size: 1100px 100%;
-		background-position: 50% 0;
+		background-size: 800px 90%;
+		background-position: 50% 100%;
 	}
 }
 
@@ -24,7 +30,7 @@ body {
 		opacity: 0;
 	}
 
-	#tagline1, #tagline2 {
+	#tagline1, #tagline2 , #tagline3{
 		opacity: 0;
 	}
 }
@@ -140,7 +146,7 @@ div#top {
 #logo-container {
 	position: absolute;
 	left: -195px;
-	bottom: 280px;
+	bottom: 200px;
 	padding: 50px;
 	transition: 2s;
 /*	background: rgba(255, 255, 255, 0.3);
@@ -157,9 +163,9 @@ div#top {
 		-ms-transform: scale(0.9);
 		transform: scale(0.9);
 	/*}*/
-	-webkit-animation: fade-in 2s ease-out 5.8s;
+	-webkit-animation: fade-in 2s ease-out 1.8s;
 	-webkit-animation-fill-mode: forwards;
-	animation: fade-in 2s ease-out 5.8s;
+	animation: fade-in 2s ease-out 1.8s;
 	animation-fill-mode: forwards;
 }
 
@@ -172,12 +178,12 @@ div#top {
 }
 
 #tagline-container1 {
-	color: #C9F3F0;
+	color: white;
 	visibility: hidden;
 	font-size: 70px;
 	font-family: 'Berkshire Swash', cursive;
 	position: absolute;
-	left: -420px;
+	left: -280px;
 	bottom: 440px;
 	transition: 2s;
 	text-shadow: 3px 3px #000000;
@@ -192,12 +198,32 @@ div#top {
 }
 
 #tagline-container2 {
-	color: #C9F3F0;
+	color: white;
 	visibility: hidden;
 	font-size: 70px;
 	font-family: 'Berkshire Swash', cursive;
 	position: absolute;
-	left: 140px;
+	left: -30px;
+	bottom: 440px;
+	transition: 2s;
+	text-shadow: 3px 3px #000000;
+}
+
+#top #tagline3 {
+	position: absolute;
+	left: 50%;
+	width: inherit;
+	height: inherit;
+	transition: 0.3s;
+}
+
+#tagline-container3 {
+	color: white;
+	visibility: hidden;
+	font-size: 70px;
+	font-family: 'Berkshire Swash', cursive;
+	position: absolute;
+	left: 80px;
 	bottom: 440px;
 	transition: 2s;
 	text-shadow: 3px 3px #000000;
@@ -579,50 +605,45 @@ div#bottom {
 }
 
 
-#road img, #boy img{
-	/*from {*/
-		-webkit-filter: opacity(0%);
-		filter: opacity(0%);
-	/*}*/
+/* #rock img, #boy img{
+	
 	-webkit-animation: fade-in 1.3s ease-out;
 	-webkit-animation-fill-mode: forwards;
 	animation: fade-in 1.3s ease-out;
 	animation-fill-mode: forwards;
-}
+} */
 
-#bottom #road {
+ #rock {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	bottom: 100vh;
+	height: 250px;
+	/*-webkit-animation: bush-pop-in 0.7s cubic-bezier(0.215, 0.911, 0.355, 1.000) 1.55s;
+	-webkit-animation-fill-mode: forwards;
+	animation: bush-pop-in 0.7s cubic-bezier(.3,1,1,1.12) 1.55s;
+	animation-fill-mode: forwards;*/
+} 
+
+#rock img {
 	position: absolute;
 	left: 50%;
-	bottom: 0%;
-	z-index: -100;
-	height: 150px;
-}
-
-#road img {
-	position: relative;
-	left: -50%;
+	transform: translateX(-50%);
 	height: inherit;
-	/*from {*/
-		-webkit-transform: scale(0.9);
-		-ms-transform: scale(0.9);
-		transform: scale(0.9);
-	/*}*/
 	animation-delay: 2.3s;
 }
 
-#bottom #boy {
+#rock #leftrockimg {
+	left: 45%;
+}
+/*
+#rock #leftrockimg {
 	position: absolute;
-	left: 50%;
-	bottom: 70px;
-}
-
-#boy img {
-	position: relative;
-	left: -55px;
-	width: 110px;
-	height: 216px;
-	animation-delay: 5.1s;
-}
+	left: -50%;
+	height: inherit;
+	animation-delay: 2.3s;
+}*/
 
 @-webkit-keyframes fade-in {
 	to {
