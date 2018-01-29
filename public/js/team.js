@@ -26,27 +26,27 @@ function setCore() {
        {
            "name":  "Bhargava",
            "post":  "Chairman",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+"DSC_0010_01.jpg"
        },
        {
            "name":  "Ram Sundaram",
            "post":  "Treasurer",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+" DSC_0042_01.jpg"
        },
        {
            "name":  "Santhosh",
            "post":  "Head, OC",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+" DSC_0016_01.jpg"
        },
        {
            "name":  "Veena",
            "post":  "Head, OC",
-           "image": base_url+"femaleplaceholder.jpg"
+           "image": base_url+" DSC_0005_01.jpg"
        },
        {
            "name":  "Anirudh",
            "post":  "Head, Content",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+" DSC_0014_01.jpg"
        },
        {
            "name":  "Abilash",
@@ -56,32 +56,32 @@ function setCore() {
        {
            "name":  "Varsha",
            "post":  "Manager",
-           "image": base_url+"femaleplaceholder.jpg"
+           "image": base_url+" DSC_0039_01.jpg"
        },
        {
            "name":  "Umair",
            "post":  "Manager",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+"DSC_0033_01.jpg"
        },
        {
            "name":  "Akaash",
            "post":  "Manager",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+"DSC_0026_01.jpg"
        },
        {
            "name":  "Snehith",
            "post":  "Manager",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+"DSC_0045_01.jpg"
        },
        {
            "name":  "Naveen",
            "post":  "Manager",
-           "image": base_url+"maleplaceholder.jpg"
+           "image": base_url+" DSC_0103_01.jpg"
        },
        {
            "name":  "Nandini",
            "post":  "Manager",
-           "image": base_url+"femaleplaceholder.jpg"
+           "image": base_url+" DSC_0101_01.jpg"
        },
    ];
 	
@@ -99,17 +99,17 @@ function setWeb() {
 		{
 			"name":  "Akshay",
 			"post":  "Web Developer",
-			"image": base_url + "maleplaceholder.jpg"
+			"image": base_url + "DSC_0031_01.jpg"
 		},
 		{
 			"name":  "Tanvi",
 			"post":  "Web Developer",
-			"image": base_url + "femaleplaceholder.jpg"
+			"image": base_url + "DSC_0021_01.jpg"
 		},
 		{
 			"name":  "Santosh",
 			"post":  "App Developer",
-			"image": base_url + "maleplaceholder.jpg"
+			"image": base_url + "DSC_0047_01.jpg"
 		},
 		{
 			"name":  "Sudarshan",
